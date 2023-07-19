@@ -1,0 +1,6 @@
+The dict type is not only widely used in our programs but also a fundamental part of
+the Python implementation. Module namespaces, class and instance attributes, and
+function keyword arguments are some of the fundamental constructs where dictionaries
+are deployed. The built-in functions live in __builtins__.__dict__.
+Because of their crucial role, Python dicts are highly optimized. Hash tables are the
+engines behind Python’s high-performance dicts.
